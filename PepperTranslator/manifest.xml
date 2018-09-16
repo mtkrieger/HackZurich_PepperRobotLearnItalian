@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package version="0.0.1" uuid="e-ba2506">
+ <names>
+  <name lang="en_US">Translator</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+  <language>it_IT</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+  <language>it_IT</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <names>
+    <name lang="en_US">Translate</name>
+   </names>
+   <triggerSentences>
+    <sentence lang="en_US">Can we practice italian?</sentence>
+    <sentence lang="en_US">Teach me italian</sentence>
+    <sentence lang="en_US">Let's practice Italian</sentence>
+   </triggerSentences>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement minVersion="2.3"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+</package>
